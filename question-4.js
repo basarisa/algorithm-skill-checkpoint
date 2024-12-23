@@ -1,6 +1,9 @@
 function sortProductsByPrice(products) {
   // Your code here
+  return products.sort((a,b) => a.price - b.price)
 }
+
+//ทำวิธีนี้เนื่องจากจำ syntex Bubble Sort ไม่ได้ค่ะ 
 
 // Test case
 const products = [
